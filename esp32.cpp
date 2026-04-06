@@ -1,27 +1,3 @@
-\documentclass{article}
-\usepackage{listings}
-\usepackage{xcolor}
-
-\lstset{
-  language=C++,
-  basicstyle=\ttfamily\small,
-  keywordstyle=\color{blue},
-  stringstyle=\color{red},
-  commentstyle=\color{green!50!black},
-  numbers=left,
-  numberstyle=\tiny,
-  stepnumber=1,
-  numbersep=5pt,
-  breaklines=true,
-  frame=single,
-  tabsize=2
-}
-
-\begin{document}
-
-\section*{ESP32 MQTT Traffic Control Code}
-
-\begin{lstlisting}
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <PubSubClient.h>
@@ -117,6 +93,3 @@ void loop() {
 
   delay(1000);
 }
-\end{lstlisting}
-
-\end{document}
